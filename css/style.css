@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -6,102 +6,9 @@
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: #f3f3f3;
-    --text-color: #fdc806;
-}
+
 
 html {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    position: relative;
-}
-
-
-
-/* ========== HEADER ========== */
-
-header nav {
-    width: 90%;
-    max-width: 1080px;
-    margin: 0 auto;
-    
-}
-
-header nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 15px;
-}
-
-header nav ul li {
-    list-style: none;
-    margin: 10px;
-
-}
-
-/* ========== MAIN CONTENT ========== */
-
-main {
-    height: 80vh;
-}
-
-main .main-content {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-
-    position: relative;
-}
-
-main .main-content img {
-    width: 60%;
-    
-}
-
-main .main-content .main-title {
-    display: flex;
-    flex-direction: column;
-}
-
-main .main-content .main-title h1 {
-    font-size: 3em;
-    margin-bottom: 15px;
-
-    text-transform: uppercase;
-}
-
-main .main-content .main-title span {
-    color: var(--text-color);
-}
-
-main .main-content .main-title p {
-    font-size: 23px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-main .main-content .main-title a {
-    width: 20%;
-    background-color: rgb(41, 41, 41);
-    text-align: center;
-    color: #fff;
-    padding: 10px;
-
-    text-decoration: none;
-    transition: .4s;
-}
-
-main .main-content .main-title a:hover {
-    transition: .4s;
-    background-color: #555;
-}
