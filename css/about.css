@@ -36,27 +36,43 @@ header img {
 
 /* CONTENT */
 
-main {
+section {
     width: 100%;
     max-width: 700px;
     max-height: 100vh;
-    margin: 40px auto 0;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-main img {
+section img {
     width: 70%;
 }
 
-main .text-content {
+section .text-content {
     width: 100%;
     max-width: 500px;
+    margin: 30px;
 }
 
-main .text-content p {
+section .text-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+section .text-content h2::after {
+    content: "";
+    width: 50%;
+    height: 4px;
+    background-color: #fdc806;
+    display: block;
+
+    border-radius: 4px;
+}
+
+section .text-content p {
     font-size: 15px;
     text-align: justify;
 }
